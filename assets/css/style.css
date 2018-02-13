@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', 'Helvetica neue', Helvetica, sans-serif;
+    background: url('hip-square.png')
+    
+
+}
+
+header {
+    background: #ffffff;
+    border: #777777;
+    font-family: 'Georgia', 'Times New Roman', Times, serif
+}
+
+
+.top-bar {
+    
+}
+
+#name {
+    background: #4aaaa5;
+    padding: 10px;
+    color: white;
+    width: 150px;
+    position: relative;
+    left: 200px;
+}
+
+
+.nav-link {
+    float: right;
+    color: #777777;
+
+}
+
+.bar {
+    border-left: 3px solid #838280;
+    width: 60px;
+}
+
+.content {
+    box-sizing: border-box;
+    background: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+.Aboutme {
+    background: #ffffff;
+    width: 650px;
+    border: #dddddd;
+    float: left;
+    color: #777777;
+    padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+
+#about {
+    color: #4aaaa5;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#profilepic {
+    height: 220px;
+    width: 190px;
+    float: left;
+    
+}
+
+.connectlinks {
+    width: 250px;
+    background: #ffffff;
+    float: right;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #dddddd;
+    margin-top: 35px;
+
+
+}
+
+#connect {
+    clear: both;
+    color: #4aaaa5;
+
+}
+
+#linkedin {
+    width: 50px;
+    height: 40px;
+
+}
+
+#github {
+    width: 50px;
+    height: 40px;
+}
+
+#stackoverflow { 
+    width: 50px;
+    height: 40px;
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    height: 20px;
+    padding: 25px;
+}
