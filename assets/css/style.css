@@ -2,17 +2,22 @@ body {
     font-family: 'Arial', 'Helvetica neue', Helvetica, sans-serif;
     background: url('hip-square.png')
     
+}
 
+#page {
+    margin: 0;
 }
 
 header {
     background: #ffffff;
     border: #777777;
     font-family: 'Georgia', 'Times New Roman', Times, serif
+
 }
 
 
 .top-bar {
+    width: 100%;
     
 }
 
@@ -23,14 +28,29 @@ header {
     width: 150px;
     position: relative;
     left: 200px;
+    text-align: center;
 }
 
 
-.nav-link {
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
     float: right;
-    color: #777777;
-
+    padding: 30px;
 }
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+
+#navigation li:not(:first-child):before {
+    content: " | ";
+}
+
 
 .bar {
     border-left: 3px solid #838280;
