@@ -15,12 +15,6 @@ header {
 
 }
 
-
-.top-bar {
-    width: 100%;
-    
-}
-
 #name {
     background: #4aaaa5;
     padding: 10px;
@@ -84,9 +78,15 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#contentbar {
+	background: #dddddd;
+	height: 3px;
+	margin: 30px 0 20px 0;
+}
+
 #profilepic {
     height: 220px;
-    width: 190px;
+    width: 180px;
     float: left;
     
 }
@@ -100,13 +100,18 @@ header {
     border: #dddddd;
     margin-top: 35px;
 
-
 }
 
 #connect {
     clear: both;
     color: #4aaaa5;
 
+}
+
+#connectline {
+	background: #dddddd;
+	height: 3px;
+	margin: 20px 0 22px 0;
 }
 
 #linkedin {
@@ -125,6 +130,10 @@ header {
     height: 40px;
 }
 
+img {
+    outline: none;
+}
+
 footer {
     clear: both;
     background: #666666;
@@ -134,3 +143,7 @@ footer {
     height: 20px;
     padding: 25px;
 }
+
+
+/* Selectors for contact.html */
+
