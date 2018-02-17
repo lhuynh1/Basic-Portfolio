@@ -4,6 +4,7 @@ body {
     
 }
 
+/* ID to fix gaps on header and footer */
 #page {
     margin: 0;
 }
@@ -26,16 +27,14 @@ header {
 }
 
 
-#navigation ul
-{
+#navigation ul {
     margin: 0;
     padding: 0;
     float: right;
     padding: 30px;
 }
 
-#navigation ul li
-{
+#navigation ul li {
     list-style-type: none;
     display: inline;
 }
@@ -43,12 +42,12 @@ header {
 
 #navigation li:not(:first-child):before {
     content: " | ";
+    color: #dddddd;
+    padding: 6px;
 }
 
-
-.bar {
-    border-left: 3px solid #838280;
-    width: 60px;
+.navlink {
+    color: #777777;
 }
 
 .content {
@@ -92,6 +91,7 @@ header {
 }
 
 .connectlinks {
+    height: 170px;
     width: 250px;
     background: #ffffff;
     float: right;
@@ -114,25 +114,12 @@ header {
 	margin: 20px;
 }
 
-#linkedin {
+#icon {
     width: 50px;
-    height: 40px;
-
+    height: 45px;
+    padding: 5px;
 }
 
-#github {
-    width: 50px;
-    height: 40px;
-}
-
-#stackoverflow { 
-    width: 50px;
-    height: 40px;
-}
-
-img {
-    outline: none;
-}
 
 footer {
     clear: both;
@@ -155,6 +142,10 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2 {
+    font-size: 22px;
+}
+
 .contactinfo {
     /* styling all contents within contact box */
     background: #ffffff;
@@ -166,4 +157,37 @@ footer {
     margin-top: 35px;
     margin-bottom: 35px;
     text-align: left;
+}
+
+.textbox {
+    width: 97%;
+    padding: 7px;
+    color: #dddddd;
+
+}
+
+#msgbox {
+    width: 97.5%;
+    padding: 7px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+input[type=submit] {
+	background: #4aaaa5;
+	border: 0px;
+	outline: none;
+	width: auto;
+	margin-top: 15px;
+	padding: 10px 30px;
+
+	font-size: 18px;
+	color: white;
+
+	transition: all 0.2s linear;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
