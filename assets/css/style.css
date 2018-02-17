@@ -20,13 +20,13 @@ header {
     background: #4aaaa5;
     padding: 10px;
     color: white;
-    width: 150px;
+    width: 155px;
     position: relative;
     left: 200px;
     text-align: center;
 }
 
-
+/* nav bar links & styling for About, Portfolio & Contact */
 #navigation ul {
     margin: 0;
     padding: 0;
@@ -80,12 +80,18 @@ header {
 #contentbar {
 	background: #dddddd;
 	height: 3px;
-	margin: 30px 0 20px 0;
+    margin: 30px 0 20px 0;
+   
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
 }
 
 #profilepic {
     height: 220px;
-    width: 180px;
+    width: 175px;
     float: left;
     
 }
@@ -110,7 +116,7 @@ header {
 
 #connectline {
 	background: #dddddd;
-	height: 2.5px;
+	height: 2px;
 	margin: 20px;
 }
 
@@ -118,6 +124,7 @@ header {
     width: 50px;
     height: 45px;
     padding: 5px;
+    text-decoration: none;
 }
 
 
@@ -131,6 +138,8 @@ footer {
     padding: 25px;
     border-top: 5px solid #4aaaa5;
 }
+
+
 
 
 /* Selectors for contact.html */
