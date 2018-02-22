@@ -4,3 +4,5 @@ This project is a portfolio to showcase my development work. The initial few pag
 
 This portfolio was created with the intention of using it to show prospective employers the development work I have created. 
 
+See the page in action here: https://lhuynh1.github.io/Basic-Portfolio/
+
